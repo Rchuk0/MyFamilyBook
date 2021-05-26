@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<title>My Family Book!</title>
+
+</head>
+<body>
+<p
+   id="P2">My Family Book!</p>
+   <hr>
+<img id="img1" onmouseover="flipimage()"src="https://thumbs.dreamstime.com/b/happy-family-five-posing-together-vector-illustration-80565128.jpg"><div><button id="Next" onclick="nextslide()">Next</button></div>
+  
+  <p id="reasons">Ramesh Chukkapalli</p>
+</body>
+<script>
+    var reasons=["Sita Chukkapalli","Amoolya Chukkapalli","Raghav Chukkapalli","Srinivas Chukkapalli"];
+var images=[
+  "https://thumbs.dreamstime.com/b/happy-family-five-posing-together-vector-illustration-80565128.jpg","https://thumbs.dreamstime.com/b/happy-family-five-posing-together-vector-illustration-80565128.jpg","https://thumbs.dreamstime.com/b/happy-family-five-posing-together-vector-illustration-80565128.jpg","https://thumbs.dreamstime.com/b/happy-family-five-posing-together-vector-illustration-80565128.jpg"];
+var i=0;
+function nextslide(){document.getElementById("reasons").innerHTML=reasons[i];
+document.getElementById("img1").src=images[i];
+i++;
+}
+if(i == 4)
+{
+  i=0;
+}
+</script>
+</html>

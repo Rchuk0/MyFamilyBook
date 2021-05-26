@@ -1,0 +1,29 @@
+body{text-align:center
+}
+img{
+  border-style:solid;
+  border-color:rgb(12, 141, 12)
+  border:1px;
+  border-radius:80px;
+  padding:5px;
+  width:450px;
+  border-width:5px;
+}
+#P1{
+font-size:70px;
+}
+#P2{
+font-size:30px;
+}
+#firstP{
+font-size:20px;
+text-align:center;
+}
+#secondP{
+font-size:20px;
+text-align:center;
+}
+#reasons{
+  font-size:50px
+}
+
